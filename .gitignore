@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# macOS
+.DS_Store
+uv.lock
+
+# Uploaded documents
+uploads/
+*.pdf
+
+# Local Qdrant database
+qdrant_storage/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
